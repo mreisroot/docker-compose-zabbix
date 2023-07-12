@@ -1,0 +1,6 @@
+---
+- name: "Iniciar os serviços do Zabbix e Grafana"
+  docker_compose:
+    project_src: /ansible/roles/zbxgrafana/files/
+    state: "present"
+...

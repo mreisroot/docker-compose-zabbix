@@ -1,0 +1,8 @@
+---
+- name: "Implantar o Zabbix com Grafana pelo Docker Compose"
+  become: true
+  hosts: "default"
+  roles:
+    - "docker"
+    - "zbxgrafana"
+...
